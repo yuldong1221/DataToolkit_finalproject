@@ -1,0 +1,22 @@
+---
+title: "Final Project"
+author: "LDYu"
+output: html_document
+---
+
+# Data
+
+This project uses built-in R dataset (ToothGrowth) and simulated biological data.
+
+# Results
+
+## Table
+
+```{r}
+read.csv("../output/odds_ratios.csv")
+```
+
+Figure
+```{r}
+knitr::include_graphics("../output/hist_biomarker.png")
+```
